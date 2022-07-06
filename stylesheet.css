@@ -172,6 +172,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	padding-right: 4px;
+	/* word-break: keep-all; */
 }
 
 .maxmin {

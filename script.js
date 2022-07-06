@@ -95,8 +95,16 @@ async function getWeather() {
 	// Current condition icon
 	document.getElementById("current-img").src = "https:" + current_info.icon;
 
-	// Current condition icon
-	let currentText = document.createTextNode(text);
+	// Current condition text
+	let cloudy = "Cloudy";
+	let cond = text;
+	if (cond == "Overcast") {
+		cond = cloudy;
+	} else {
+		cond = text;
+	}
+
+	let currentText = document.createTextNode(cond);
 	document.getElementById("current-text").appendChild(currentText);
 
 	// Current temperature
@@ -127,7 +135,7 @@ async function getWeather() {
 
 		// expectations
 		let forecastFixDiv = document.createElement("div");
-		forecastFixDiv.classList.add("text");
+		forecastFixDiv.classList.add("cond");
 
 		// icon
 		let iconElement = document.createElement("img");
