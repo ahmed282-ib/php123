@@ -167,12 +167,12 @@ body {
 }
 
 .forecast-text {
-	margin-top: 0.3em;
-	font-size: 1rem;
-	text-align: center;
+	display: flex;
+	align-items: center;
 	font-weight: bold;
+	font-size: 0.9rem;
+	margin-top: 0.3em;
 	padding-right: 4px;
-	/* word-break: keep-all; */
 }
 
 .maxmin {
