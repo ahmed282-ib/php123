@@ -166,12 +166,18 @@ body {
 	flex-direction: row;
 }
 
-.forecast-text {
+.cond {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
+	justify-content: center;
+}
+
+.forecast-text {
 	font-weight: bold;
 	font-size: 0.9rem;
 	margin-top: 0.3em;
+	text-align: center;
 	padding-right: 4px;
 }
 
