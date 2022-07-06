@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personal Homepage</title>
+		<link rel="stylesheet" href="./stylesheet.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="greeting-div">
+				<h1><u>Hey there!</u></h1>
+				<h3>Hope you're having a nice day 😀</h3>
+			</div>
+			<div class="tip-div">
+				<p id="tip-p">
+					Reminder: <br />
+					<span id="tip"></span>
+				</p>
+			</div>
+			<div class="joke-div">
+				<p id="joke-q">Wanna hear a dad joke? 😝</p>
+				<p id="joke"></p>
+			</div>
+			<div class="weather-div">
+				<div class="current">
+					<p id="current-location">
+						Current weather conditions in
+						<span id="location"></span>
+					</p>
+					<div id="overzicht">
+						<img src="" id="current-img" alt="" />
+						<p id="current-text"></p>
+					</div>
+				</div>
+				<div id="info">
+					<p>Temperature: <span id="current-temp"></span>° F</p>
+					<p>Feels like: <span id="feels-like"></span>° F</p>
+					<p>Humidity: <span id="current-humidity"></span>%</p>
+					<p>Wind speed: <span id="current-gust"></span> mph</p>
+				</div>
+			</div>
+			<div id="forecast">
+				<p id="expec">Expectations for the next 2 days</p>
+				<div id="grid"></div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
