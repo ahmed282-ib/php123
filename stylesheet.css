@@ -111,8 +111,9 @@ body {
 }
 
 #current-text {
-	font-weight: bold;
 	display: flex;
+	font-weight: bold;
+	font-size: 1.2em;
 	align-items: center;
 	margin-left: 1em;
 }
