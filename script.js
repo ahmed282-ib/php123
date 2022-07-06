@@ -69,7 +69,7 @@ async function getDadJoke() {
 }
 
 async function getWeather() {
-	let endpoint = "http://api.weatherapi.com/v1/forecast.json?";
+	let endpoint = "https://api.weatherapi.com/v1/forecast.json?";
 	let api_key = "key=" + "a97e8e286a9b467eb2a204937222406";
 	let abingdon = "39.488240,-76.309110";
 	let q = "q=" + abingdon;
