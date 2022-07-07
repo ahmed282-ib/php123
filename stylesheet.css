@@ -10,12 +10,11 @@ html {
 body {
 	background-image: linear-gradient(
 		to right bottom,
-		#9477d4,
-		#a985d9,
-		#bc94de,
-		#cda4e3,
-		#ddb4e9
-	);
+		#3a2679,
+		#594099,
+		#795bba,
+		#9a77dc,
+		#bb95ff);
 }
 
 .container {
@@ -24,11 +23,11 @@ body {
 	width: 100vw;
 	background-image: linear-gradient(
 		to right bottom,
-		#9477d4,
-		#a985d9,
-		#bc94de,
-		#cda4e3,
-		#ddb4e9
+		#3a2679,
+		#594099,
+		#795bba,
+		#9a77dc,
+		#bb95ff);
 	);
 }
 
