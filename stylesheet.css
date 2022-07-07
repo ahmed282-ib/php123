@@ -9,12 +9,20 @@ html {
 
 body {
 	background-image: linear-gradient(
-		to right bottom,
-		#3a2679,
-		#594099,
-		#795bba,
-		#9a77dc,
-		#bb95ff);
+		to left,
+		#9453d4,
+		#9655d6,
+		#9857d8,
+		#9959db,
+		#9b5bdd,
+		#9d5edd,
+		#a062de,
+		#a265de,
+		#a66adc,
+		#a96fdb,
+		#ac74d9,
+		#af79d8
+	);
 }
 
 .container {
@@ -22,12 +30,19 @@ body {
 	height: 100vh;
 	width: 100vw;
 	background-image: linear-gradient(
-		to right bottom,
-		#3a2679,
-		#594099,
-		#795bba,
-		#9a77dc,
-		#bb95ff);
+		to left,
+		#9453d4,
+		#9655d6,
+		#9857d8,
+		#9959db,
+		#9b5bdd,
+		#9d5edd,
+		#a062de,
+		#a265de,
+		#a66adc,
+		#a96fdb,
+		#ac74d9,
+		#af79d8
 	);
 }
 
@@ -110,11 +125,11 @@ body {
 }
 
 #current-text {
-	display: flex;
 	font-weight: bold;
-	font-size: 1.2em;
+	display: flex;
 	align-items: center;
 	margin-left: 1em;
+	font-size: 1.2em;
 }
 
 #info {
